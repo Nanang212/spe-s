@@ -1,6 +1,9 @@
 nav ul li:hover {
     background-color: #08d1fa;
 }
+html {
+    scroll-behavior: smooth;
+}
 .banner {
     background-image: url(../assets/image/banner1.png);
     width: 100%;
