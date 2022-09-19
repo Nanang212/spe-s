@@ -9,3 +9,7 @@ nav ul li:hover {
 .banner .padding{
     padding-top: 10em;
 }
+.card {
+    height: 380px;
+    padding: 20px;
+}
