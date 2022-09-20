@@ -40,7 +40,7 @@
             </a>
           </div>
           <div
-            class="collapse navbar-collapse justify-content-end"
+            class="collapse navbar-collapse justify-content-end fw-bold"
             id="navbarNav"
           >
             <ul class="navbar-nav">
@@ -68,24 +68,24 @@
       <div class="container my-5">
         <div class="row my-5" style="font-family: Poppins, sans-serif">
           <div class="col-md-3 pt-3">
-            <h4
-              class="fw-semibold pb-xl-0 mb-xl-0"
+            <h1
+              class="fw-semibold pb-xl-0 mb-xl-0 fs-4"
               style="
                 color: rgba(33, 37, 41, 0.87);
                 font-family: Poppins, sans-serif;
               "
             >
               Syarat Melakukan
-            </h4>
-            <h4
-              class="fw-semibold mt-xl-0 pt-xl-0"
+            </h1>
+            <h1
+              class="fw-semibold mt-xl-0 pt-xl-0 fs-4"
               style="
                 color: rgba(33, 37, 41, 0.87);
                 font-family: Poppins, sans-serif;
               "
             >
               Penyewaan
-            </h4>
+            </h1>
             <h1></h1>
           </div>
           <div class="col-md-3">
@@ -129,8 +129,8 @@
       <div class="container my-5">
         <div class="row text-center justify-content-center mb-5">
           <div class="col-xl-6 col-lg-8">
-            <h4
-              class="fw-semibold text-center"
+            <h1
+              class="fw-semibold text-center fs-4"
               style="
                 color: rgba(33, 37, 41, 0.87);
                 font-family: Poppins, sans-serif;
@@ -171,7 +171,7 @@
                 >
                   <div class="inner-circle"></div>
                   <p class="h6 text-muted mb-0 mb-lg-0">
-                    Melakukan DP Pembayaran Via Online
+                    Customer Melakukan DP Pembayaran Via Online
                   </p>
                 </div>
               </div>
@@ -187,7 +187,7 @@
                 >
                   <div class="inner-circle"></div>
                   <p class="h6 text-muted mb-0 mb-lg-0">
-                    Pengguna Mengambil Barang
+                    Customer Mengambil Barang
                   </p>
                 </div>
               </div>
@@ -203,7 +203,7 @@
                 >
                   <div class="inner-circle"></div>
                   <p class="h6 text-muted mb-0 mb-lg-0">
-                    Penyewa Mengembalikan Barang
+                    Customer Mengembalikan Barang
                   </p>
                 </div>
               </div>
@@ -215,60 +215,98 @@
 
     <section class="py-5" style="font-family: Poppins, sans-serif">
       <div class="container mt-5">
-        <h4
-          class="fw-semibold text-center mb-5"
+        <h1
+          class="fs-4 fw-semibold text-center mb-5"
           style="
             color: rgba(33, 37, 41, 0.87);
             font-family: Poppins, sans-serif;
           "
         >
           Pesan Sekarang!
-        </h4>
+        </h1>
       </div>
       <div class="container my-5">
         <div class="row">
           <div class="col-md-6 ps-5">
-            <input
+            <!-- <input
               class="form-control-lg mb-4"
               type="text"
               placeholder="Nama Lengkap"
               style="width: 450px; color: rgba(0, 0, 0, 0.42)"
-            /><input
-              class="form-control-lg mb-4"
-              type="text"
-              placeholder="Nomor Telepon"
-              style="width: 450px; color: rgba(0, 0, 0, 0.42)"
-            /><input
-              class="form-control-lg mb-4"
-              type="text"
-              placeholder="Jaminan"
-              style="width: 450px; color: rgba(0, 0, 0, 0.42)"
-            />
+            /> -->
+            <div class="input-group mb-4">
+              <span class="input-group-text">Nama Lengkap</span>
+              <input type="text" aria-label="First name" class="form-control" />
+            </div>
+            <div class="input-group mb-4">
+              <span class="input-group-text">Nomor Telepon</span>
+              <input
+                type="number"
+                aria-label="First name"
+                class="form-control"
+              />
+            </div>
+            <div class="input-group mb-4">
+              <label class="input-group-text" for="inputGroupSelect01"
+                >Jaminan</label
+              >
+              <select class="form-select" id="inputGroupSelect01">
+                <option selected>Pilih...</option>
+                <option value="1">KTP</option>
+                <option value="2">SIM</option>
+                <option value="3">KTM</option>
+                <option value="4">Lainnya</option>
+              </select>
+            </div>
           </div>
           <div class="col-md-6 ps-5">
-            <input
-              class="form-control-lg mb-4"
-              type="text"
-              placeholder="Barang"
-              style="width: 450px; color: rgba(0, 0, 0, 0.42)"
-            /><input
-              class="form-control-lg mb-4"
-              type="text"
-              placeholder="Kuantitas"
-              style="width: 450px; color: rgba(0, 0, 0, 0.42)"
-            /><input
-              class="form-control-lg mb-4"
-              type="text"
-              placeholder="Tanggal Peminjaman"
-              style="width: 450px; color: rgba(0, 0, 0, 0.42)"
-            />
-            <button type="button" class="btn btn-primary btn-lg text-align-end">
-              Kirim
-            </button>
+            <div class="input-group mb-4">
+              <label class="input-group-text" for="inputGroupSelect01"
+                >Barang</label
+              >
+              <select class="form-select" id="inputGroupSelect01">
+                <option selected>Pilih...</option>
+                <option value="1">Tenda</option>
+                <option value="2">Sleeping Bag</option>
+                <option value="3">Alat Masak</option>
+                <option value="4">Lainnya</option>
+              </select>
+            </div>
+            <div class="input-group mb-4">
+              <span class="input-group-text">Kuantitas</span>
+              <input
+                type="number"
+                aria-label="First name"
+                class="form-control"
+              />
+            </div>
+            <div class="input-group mb-4">
+              <span class="input-group-text">Tanggal Peminjaman</span>
+              <input type="date" aria-label="First name" class="form-control" />
+            </div>
+          <button type="submit" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#bookingModal">Kirim</button>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- MOdal -->
+    <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Pengajuan Berhasil</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Silakan tunggu dalam 2x24 jam, admin kami akan segera menghubungi anda. Apabila tidak ada tanggapan, silakan hubungi kontak kami yang tertera
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- footer -->
     <footer style="background: #295962">
