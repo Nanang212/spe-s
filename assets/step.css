@@ -19,7 +19,7 @@ body {
   .timeline-steps .timeline-step:not(:last-child):after {
     content: "";
     display: block;
-    border-top: 0.25rem dotted #3b82f6;
+    border-top: 0.25rem dotted #fcff2e;
     width: 3.46rem;
     position: absolute;
     left: 7.5rem;
@@ -28,7 +28,7 @@ body {
   .timeline-steps .timeline-step:not(:first-child):before {
     content: "";
     display: block;
-    border-top: 0.25rem dotted #3b82f6;
+    border-top: 0.25rem dotted #fcff2e;
     width: 3.8125rem;
     position: absolute;
     right: 7.5rem;
@@ -48,12 +48,12 @@ body {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: #3b82f6;
+  background-color: #fcff2e;
 }
 
 .timeline-steps .timeline-content .inner-circle:before {
   content: "";
-  background-color: #3b82f6;
+  background-color: #fcff2e;
   display: inline-block;
   height: 3rem;
   width: 3rem;
